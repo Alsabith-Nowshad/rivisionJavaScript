@@ -14,11 +14,31 @@
 
 // console.log(num2);
 
-let num = [12,3,44,23,54,32]
-let filtered = num.filter(function(n){
-   New =  n  !=12
-   return New
-})
+// let num = [12,3,44,23,54,32]
+// let filtered = num.filter(function(n){
+//    New =  n  !=12
+//    return New
+// })
 
-console.log(filtered);
+// console.log(filtered);
+total = 0
+let ravi = [49,78,89]
 
+
+function calc(candi){
+ if(candi[0]>= 50 && candi[1]>= 50 &&  candi[2]>=50){
+   total = total + candi[0] + candi[1] + candi[2] 
+   return total
+ }else{
+    total = 0
+    return total
+ }
+}
+
+hai = ravi.splice(1,1)
+
+console.log(ravi)
+
+let res = calc(ravi)
+
+console.log(res);
