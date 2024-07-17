@@ -155,14 +155,23 @@
 // let result  = arr.join("*")
 // console.log(result)
 
-k=1
 
-for(i=1;i<=3;i++){
-    for(j=1;j<=i;j++)
-    {
-        document.write(k)
-        k++
-        
-    }
-    document.write("<br>")
-}
+// k=1
+
+// for(i=1;i<=3;i++){
+//     for(j=1;j<=i;j++)
+//     {
+//         document.write(k)
+//         k++
+//     }
+//     document.write("<br>")
+// }
+
+
+// a = 112
+
+// let a
+
+// console.log(a);
+
+

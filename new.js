@@ -3,7 +3,7 @@
 // let sor = arr.sort((a,b)=>a-b)
 // arr2 = [...new Set(sor)]
 
-// console.log(arr2);
+// console.log(sor);
 
 
 // let num = [12,3,44,23,54,32]
@@ -21,24 +21,43 @@
 // })
 
 // console.log(filtered);
-total = 0
-let ravi = [49,78,89]
 
 
-function calc(candi){
- if(candi[0]>= 50 && candi[1]>= 50 &&  candi[2]>=50){
-   total = total + candi[0] + candi[1] + candi[2] 
-   return total
- }else{
-    total = 0
-    return total
- }
-}
+// total = 0
+// let ravi = [49,78,89]
 
-hai = ravi.splice(1,1)
 
-console.log(ravi)
+// function calc(candi){
+//  if(candi[0]>= 50 && candi[1]>= 50 &&  candi[2]>=50){
+//    total = total + candi[0] + candi[1] + candi[2] 
+//    return total
+//  }else{
+//     total = 0
+//     return total
+//  }
+// }
 
-let res = calc(ravi)
+// hai = ravi.splice(1,1)
 
-console.log(res);
+// console.log(ravi)
+
+// let res = calc(ravi)
+
+// console.log(res);
+
+// let text = "Hai guys to I am Alsabith Nowshad Welcome back tO my Youtube Channel To"
+
+// let test = text.search(/To/i)
+// console.log(test);
+
+// let num = {firstName : 'alsabith' ,
+//     lastName : "nowshad",
+//     age : 44,
+//     place : 'kottayam',
+//     position : 'CSeo',
+//     staffs: 32}
+
+// let {lastName,place,staffs,position,age,firstName} = num
+
+// console.log(firstName,lastName);
+
